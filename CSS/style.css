@@ -35,13 +35,15 @@ header {
     padding: 10px;
     text-decoration: none;
     color: black;
-
+    border-radius: 20px;
+    background-color: white;
+    font-size: 16px;
+    transition: all;
+    transition-duration:0.5s;
 }
 
 .navButton:hover {
     background-color: #ced8e0;
-    border-radius: 20px;
-
 }
 
 .divisionBar {
@@ -110,6 +112,12 @@ footer {
     margin-right: 50px;
     margin-top: 50px;
     float: left;
+    transition: width;
+    transition-duration: 0.4s;
+}
+
+.imagenMascotasHome:hover {
+    width: 510px;
 }
 
 .homeSectionTitle {
@@ -141,10 +149,14 @@ footer {
 .homeAptitudesImage {
     background-color: white;
     border-radius: 50%;
+    width: 150px;
+    transition: all;
+    transition-duration: 0.4s;
 }
 
 .homeAptitudesImage:hover {
     box-shadow: 5px 2px gray;
+    width: 160px;
 }
 
 .aptitudes {
