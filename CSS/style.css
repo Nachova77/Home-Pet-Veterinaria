@@ -143,6 +143,10 @@ footer {
     border-radius: 50%;
 }
 
+.homeAptitudesImage:hover {
+    box-shadow: 5px 2px gray;
+}
+
 .aptitudes {
     margin: 100px 100px 100px 100px;
     width: 150px;
