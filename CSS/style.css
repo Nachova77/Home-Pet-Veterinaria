@@ -211,6 +211,12 @@ footer {
     width: 150px;
     padding-left: 65x;
     margin-top: 100px;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+.servicioImage:hover {
+    width: 160px;
 }
 
 .servicioText {
