@@ -332,6 +332,13 @@ footer {
     width: 80vw;
 }
 
+.accordion {
+    margin-top: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 70px;
+}
+
 /* Mobile style */
 
 @media screen and (max-width: 480px) {
@@ -341,6 +348,10 @@ footer {
     header {
         padding-left: 20px;
         padding-bottom: 60px;
+    }
+
+    #divisionBarFaqs {
+        margin-top: 40px;
     }
 
     .logo img {
@@ -490,6 +501,10 @@ footer {
         padding-left: 20px;
         padding-bottom: 70px;
         display: block;
+    }
+
+    #divisionBarFaqs {
+        margin-top: 40px;
     }
 
     .logo img {
