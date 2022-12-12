@@ -1,3 +1,4 @@
+/*Variables*/
 body {
   margin: 0;
   overflow-x: hidden; }
@@ -33,9 +34,8 @@ header {
   font-size: 16px;
   transition: all;
   transition-duration: 0.5s; }
-
-.navButton:hover {
-  background-color: #ced8e0; }
+  .navButton:hover {
+    background-color: #ced8e0; }
 
 .divisionBar {
   background-color: #ced8e0;
@@ -93,9 +93,8 @@ footer {
   float: left;
   transition: width;
   transition-duration: 0.4s; }
-
-.imagenMascotasHome:hover {
-  width: 510px; }
+  .imagenMascotasHome:hover {
+    width: 510px; }
 
 .homeSectionTitle {
   margin-top: 50px;
@@ -126,10 +125,9 @@ footer {
   width: 150px;
   transition: all;
   transition-duration: 0.4s; }
-
-.homeAptitudesImage:hover {
-  box-shadow: 5px 2px gray;
-  width: 160px; }
+  .homeAptitudesImage:hover {
+    box-shadow: 5px 2px gray;
+    width: 160px; }
 
 .aptitudes {
   margin: 100px 100px 100px 100px;
@@ -177,9 +175,8 @@ footer {
   margin-top: 100px;
   transition: all;
   transition-duration: 0.4s; }
-
-.servicioImage:hover {
-  width: 160px; }
+  .servicioImage:hover {
+    width: 160px; }
 
 .servicioText {
   width: 300px;

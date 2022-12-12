@@ -1,3 +1,8 @@
+/*Variables*/
+
+$footer-color: #f6dade;
+$home-aptitudes-color: #ced8e0;
+
 body {
     margin: 0;
     overflow-x: hidden;
@@ -15,7 +20,6 @@ header {
     height: 150px;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .logo img {
@@ -40,10 +44,10 @@ header {
     font-size: 16px;
     transition: all;
     transition-duration:0.5s;
-}
 
-.navButton:hover {
-    background-color: #ced8e0;
+    &:hover {
+        background-color: #ced8e0;
+    }
 }
 
 .divisionBar {
@@ -55,7 +59,7 @@ header {
 /* Footer style */
 
 footer {
-    background-color: #f6dade;
+    background-color: $footer-color;
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -114,10 +118,10 @@ footer {
     float: left;
     transition: width;
     transition-duration: 0.4s;
-}
 
-.imagenMascotasHome:hover {
-    width: 510px;
+    &:hover {
+        width: 510px;
+    }
 }
 
 .homeSectionTitle {
@@ -138,7 +142,7 @@ footer {
 .homeAptitudes {
     display: flex;
     flex-wrap: wrap;
-    background-color: #ced8e0;
+    background-color: $home-aptitudes-color;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -152,11 +156,11 @@ footer {
     width: 150px;
     transition: all;
     transition-duration: 0.4s;
-}
 
-.homeAptitudesImage:hover {
-    box-shadow: 5px 2px gray;
-    width: 160px;
+    &:hover {
+        box-shadow: 5px 2px gray;
+        width: 160px;
+    }
 }
 
 .aptitudes {
@@ -213,10 +217,10 @@ footer {
     margin-top: 100px;
     transition: all;
     transition-duration: 0.4s;
-}
 
-.servicioImage:hover {
-    width: 160px;
+    &:hover {
+        width: 160px;
+    }
 }
 
 .servicioText {
