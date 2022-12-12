@@ -3,6 +3,22 @@
 $footer-color: #f6dade;
 $home-aptitudes-color: #ced8e0;
 
+@mixin header-style {
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@mixin footer-style {
+    background-color: $footer-color;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+}
+
 body {
     margin: 0;
     overflow-x: hidden;
@@ -15,11 +31,7 @@ html {
 /* Header style */
 
 header {
-    display: flex;
-    width: 100vw;
-    height: 150px;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    @include header-style()
 }
 
 .logo img {
@@ -59,11 +71,7 @@ header {
 /* Footer style */
 
 footer {
-    background-color: $footer-color;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    justify-content: space-between;
+    @include footer-style()
 }
 
 .datosFooter {
